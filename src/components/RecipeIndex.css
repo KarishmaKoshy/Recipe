@@ -1,0 +1,17 @@
+.letters{
+    display: flex;
+    padding: 20px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    padding-left: 7rem;
+}
+
+.letters::-webkit-scrollbar{
+    display: none;
+}
+
+.letter{
+    padding-left: 35px;
+    cursor: pointer;
+    
+}
